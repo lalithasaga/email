@@ -1,0 +1,46 @@
+.SidebarOptions {
+    display: flex;
+    align-items: center;
+    height: 35 px;
+    border-top-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    padding: 0px 25px;
+    margin-right: 20px;
+}
+
+.SidebarOptions svg {
+    color: rgb(94,94,94);
+    font-size: 20px;
+    width: 20px;
+}
+
+.SidebarOptions h4 {
+    font-size: 14px;
+    flex: 1;
+    margin-left: 10px;
+    font-weight: normal;
+
+}
+
+.SidebarOptions p {
+    opacity: 1;
+    color: rgb(94,94,94);
+    font-size: 12px;
+    opacity: 0;
+}
+
+.SidebarOptions:hover {
+    cursor:pointer;
+    background-color: whitesmoke;
+}
+.SidebarOptions--active{
+    background-color: #fce8e6;
+}
+.SidebarOptions--active h4 ,
+.SidebarOptions--active h4 ,
+.SidebarOptions--active svg
+{
+    color: #d93025;
+    font-weight: bold;
+    opacity: 1;
+}

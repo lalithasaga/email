@@ -1,0 +1,126 @@
+.EmailList {
+    display: flex;
+    flex-direction: column;
+}
+
+.emailList_settigs {
+    display: flex;
+    align-items: center;
+    position: sticky;
+    top:0;
+    justify-content: space-between;
+    border-bottom: 1px whitesmoke;
+}
+.emailList_settigs svg {
+    font-size: 18px;
+}
+
+.emailList_settingsright {
+    display: flex;
+    align-items: center;
+}
+
+.emailList_settingsright p {
+    font-size: 13px;
+
+}
+
+.emailbody {
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid whitesmoke;
+    padding: 0px 10px;
+}
+
+.emailbody .emailbody__left {
+    display: flex;
+    align-items: center;
+    min-width: 300px;
+    flex: 20%;
+}
+
+.emailbody .emailbody__left svg {
+    font-size: 18px;
+    color: grey;
+    margin-right: 15px;
+}
+
+.emailbody .emailbody__left h4 {
+    font-size: 14px;
+}
+
+.emailbody .emailbody__middle {
+    display: flex;
+    align-items: center;
+    flex: 90%;
+}
+.emailbody__middle.emailbody__middle__msg {
+    display: flex;
+   width:90%;
+
+}
+
+.emailbody .emailbody__right {
+    display: flex;
+    align-items: center;
+    flex: 10%;
+}
+
+.emailbody .emailbody__right p {
+    font-size: 12px;
+}
+
+.emailbody .emailbody__middle p {
+    font-size: 14px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    padding: 0px 20px;
+    max-width: 700px;
+}
+
+.email__header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border: 1px solid whitesmoke;
+    padding: 0px 15px;
+}
+
+.email__headerLeft {
+    display: flex;
+    align-items: center;
+}
+
+.email__header svg{
+    font-size: 18px;
+}
+
+.email__middleheader {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 1px solid whitesmoke;
+}
+
+.email__middleheaderLeft {
+    display: flex;
+    align-items: center;
+}
+
+.email__middleheader svg{
+    font-size: 30px;
+}
+
+.email__middleheaderLeft h4{
+    margin-right: 10px;
+}
+
+.email__middleheaderLeft p{
+    font-size: 14px;
+}
+
+.email_body {
+    display: flex;
+    padding: 0px  15px;
+}
